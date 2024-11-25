@@ -1,0 +1,73 @@
+<!DOCTYPE>
+  <html lang="pl-PL">
+  <meta charset="UTF-8">
+<head>
+<title>Moja pierwsza strona www</title>
+</head>
+<body>
+<fieldset>
+<legend style="color:red";><h3>Dane Osobowe</h3></legend>
+<td>
+<p align="right">Miejscowość i Data<br /><input type="text" name="Miej" size="30" /></p>
+<table>
+<td><p>Imię<br /><input type="text" name="Imię" size="30" /></p></td>
+<td><p>Nazwisko<br /><input type="text" name="Nazwisko" size="30" /></p></td>
+<br />
+Adres Zamieszkania
+<p><textarea cols="30" rows="4">
+</textarea>
+<br />
+<table><td>
+<td><p>Telefon Kontaktowy<br /><input type="text" name="Mail" value="+48 500 000 000" /></p></td>
+<br />
+<td><p>E-mail<br /><input type="text" name="Mail" value="email@gmail.com"/></p></td>
+</table>
+
+</fieldset>
+<fieldset>
+<legend style="color:red";><h3>Formularz Zwrotu Butów</h3></legend>
+<br />
+Zwracam w niezniczonym stanie
+<br />
+<p>Nazwa-Marka-Towaru<br /><input type="text" name="Towar" size="60" /></p>
+<table> 
+<td>
+Kolor<br />
+<input type="color" name="favcolor"></td>
+<td><p>Indeks Towaru<br /><input type="text" name="Towar" size="60" /></p></td>
+<td>Rozmiar<br />
+<input type="checkbox" name="roz">37
+<input type="checkbox" name="roz">38
+<input type="checkbox" name="roz">39
+<input type="checkbox" name="roz">40
+<input type="checkbox" name="roz">41
+<input type="checkbox" name="roz">42
+<input type="checkbox" name="roz">43
+<input type="checkbox" name="roz">44
+<input type="checkbox" name="roz">45
+</table>
+<br />
+<p>Dla Kogo:<br />
+<input type="radio" name="plec" value="Mężczyzna" id="male"><label for="male">Mężczyzna</label>
+<input type="radio" name="plec" value="Kobieta" id="female"><label for="female">Kobieta</label></p>
+<p>Data Zakupu<br />
+<input type="date" value="25.11.2024"></p>
+<table><td>Przyczyna Zwrotu<br />
+<textarea cols="45" rows="5">
+</textarea></td>
+<td>
+Kwota Zwrotu:<br /><input type="text" name="zwrot" size="20"/><br /><br />
+</td>
+<td>Dane do Przelewów<br />
+<textarea cols="45" rows="5">
+</textarea></td>
+<td>
+</p><table>
+<p>
+Zgodnie z ustawą z dnia 30 Maja 2014r. O prawach konsumenckich (Dz. U. Z dnia 24 Czerwca 2014r. poz. 827)Niniejszym oświadczam że odstępuje od umowy sprzedaży.
+</p>
+<button  size="40" align="center" type="button" name="wys" id="Wyślij" value="wyslij" onclick="alert(Wysłano)">Wyślij</button>
+
+</fieldset>
+</body>
+</html>
